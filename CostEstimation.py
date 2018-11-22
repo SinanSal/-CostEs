@@ -1,14 +1,3 @@
-from OCC.StlAPI import *
-from OCC.TopoDS import *
-from OCC.GProp import *
-from OCC.BRepGProp import *
-from OCC.Bnd import *
-from OCC.BRepBndLib import *
-
-from sklearn.linear_model import LinearRegression
-from sklearn.model_selection import train_test_split
-from sklearn import metrics
-
 from flask import Flask
 from flask_cors import CORS
 from flask_restful import Resource, Api
